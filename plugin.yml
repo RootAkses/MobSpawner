@@ -1,6 +1,6 @@
 name: MobManager
 main: MobManager\Main
-version: 1.0.0
+version: 1.3.9
 api: [2.0.0]
-author: Alvaro
-description: Animal and monster spawn, breeding limit and mob cleanup system
+author: RootAkses
+description: Better PureEntities Spawning
