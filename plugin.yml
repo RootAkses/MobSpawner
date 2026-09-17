@@ -1,0 +1,6 @@
+name: MobManager
+main: MobManager\Main
+version: 1.0.0
+api: [2.0.0]
+author: Alvaro
+description: Animal and monster spawn, breeding limit and mob cleanup system

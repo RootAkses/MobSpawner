@@ -1,0 +1,41 @@
+# MobManager
+# Genisys API 2.0.0
+
+spawn:
+  enabled: true
+
+  # Berapa tick sekali mencoba spawn
+  interval: 200
+
+  # Jarak maksimum dari player
+  radius: 30
+
+animals:
+  enabled: true
+
+  # Jumlah maksimum animal per world
+  max: 32
+
+  # Jumlah animal yang dicoba dibuat setiap cycle
+  amount: 2
+
+monsters:
+  enabled: true
+
+  # Jumlah maksimum monster per world
+  max: 50
+
+  # Jumlah monster yang dicoba dibuat setiap cycle
+  amount: 3
+
+cleanup:
+  enabled: true
+
+  # Dalam detik
+  interval: 120
+
+  # Jika total mob melebihi limit, mob berlebih dihapus
+  max-total: 82
+
+  # Jangan hapus mob yang namanya ada di sini
+  protected: []
